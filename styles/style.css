@@ -11,9 +11,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* body{
-    width: 1440px;
-} */
+body{
+    background-color: rgb(239, 238, 238);
+}
 .display-flex{
     display: flex;
     justify-content: space-between;
@@ -131,3 +131,43 @@
     
     
 }
+
+/* our-plant-design */
+.our-plant{
+    width:1140px;
+    height:1186.88px;
+    margin: 120px auto;
+}
+.our-plant-card{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 49px;
+    width:1140px;
+    height:999.88px;
+    gap:20px;
+    
+}
+.our-plant-description{
+    text-align: center;
+}
+.card{
+    width:270px;
+    height: 484.84px;
+}
+
+
+
+
+
+
+/* plant-lover-design */
+
+    .plant-lover{
+        display: flex;
+        width: 1140px;
+        height: 597px;
+        justify-content: space-between;
+        margin: 30px auto;
+        align-items: center;
+        gap:60px;
+    }
