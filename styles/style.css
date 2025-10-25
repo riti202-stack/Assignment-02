@@ -134,6 +134,10 @@ body{
 .f-text{
     font-size:22px;
     font-weight: 500;
+    width: 570px;
+    height: 108px;
+    
+    
      
 }
 .display-flower-div{
@@ -166,6 +170,8 @@ body{
   }
   .f-text{
     font-size: 14px;
+    width:360px;
+    height:68px;
   }
     
     
@@ -188,6 +194,10 @@ body{
     padding-left: 14px;
 
     
+}
+.fill-txt{
+    font-size:22px;
+    font-weight: 500;
 }
 .our-plant-description{
     text-align: center;
@@ -238,7 +248,7 @@ body{
         width: 362px;
         height:1474px;
         margin-top: 28px;
-        /* margin: auto; */
+       
         
         
     }
@@ -260,9 +270,7 @@ body{
         height:196px;
         margin-bottom: 30px;
     }
-    /* .our-plant-card{
-            margin-bottom: 41.5px;
-        } */
+    
     .our-plant-description{
         width:393px;
         height:117px;
@@ -271,7 +279,7 @@ body{
         font-size: 24px;
 
     }
-    .f-text{
+    .fill-text{
         font-size: 14px;
         width: 336px;
         height: 68px;
