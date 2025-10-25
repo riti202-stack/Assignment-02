@@ -73,21 +73,17 @@ body{
     text-decoration: none;
 
 }
-/* .display-flex,li{
-    list-style: none;
-} */
 
 
-@media screen and (max-width:430px){
+
+@media screen and (max-width:600px){
     .vis{
         display: none;
         
     }
-    /* body{
-        max-width:430px ;
-    } */
+    
     .nav-spacing{
-        margin:30px auto;
+        margin:20px auto;
         width: 361px;
         height:38px;
         /* gap:auto; */
@@ -108,7 +104,7 @@ body{
 }
 
 
-
+/* display flower design */
 .display-flower{
     display:flex;
     justify-content:center;
@@ -140,16 +136,27 @@ body{
     height: 355px;
 }
 
-@media  screen and (max-width:430px) {
+@media  screen and (max-width:600px) {
   .display-flower{
     flex-direction: column-reverse;
     width:430px;
+    margin: 20px auto;
 
   }
   .display-flower-img,img{
     width: 393px;
     height: 245px;
-    margin:0px;
+    margin-bottom: 28px;
+  }
+  .display-flower-div{
+    width:361px;
+    height: 147px;
+  }
+  .f-title{
+    font-size: 24px;
+  }
+  .f-text{
+    font-size: 14px;
   }
     
     
@@ -159,7 +166,7 @@ body{
 .our-plant{
     width:1140px;
     height:1186.88px;
-    margin: 120px auto;
+    margin:120px auto;
 }
 .our-plant-card{
     display:grid;
@@ -169,6 +176,8 @@ body{
     height:999.88px;
     column-gap: 20px;
     row-gap: 100px;
+    padding-left: 14px;
+
     
 }
 .our-plant-description{
@@ -210,6 +219,70 @@ body{
     font-weight: 600px;
     border:none;
 
+}
+@media screen and (max-width:600px) {
+    .our-plant-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 60px;
+        column-gap: 20px;
+        width: 362px;
+        height:1474px;
+        margin-top: 28px;
+        /* margin: auto; */
+        
+        
+    }
+    .our-plant{
+        
+        margin-top:65px;
+        width:393px;
+        height: 1750px;
+        margin-bottom: 0px;
+    }
+    .card{
+        width: 171px;
+        height: 340.5px;
+        
+
+    }
+    .card>img{
+        width: 171px;
+        height:196px;
+        margin-bottom: 30px;
+    }
+    /* .our-plant-card{
+            margin-bottom: 41.5px;
+        } */
+    .our-plant-description{
+        width:393px;
+        height:117px;
+    }
+    .our-plant-heading{
+        font-size: 24px;
+
+    }
+    .f-text{
+        font-size: 14px;
+    }
+    .plant-btn{
+        width:171px;
+        height: 50px;
+        
+    }
+    .lily{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: 0px;
+    
+}
+  .usd{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+    
 }
 
 
@@ -265,6 +338,40 @@ body{
         
 
     }
+    @media screen and (max-width:600px) {
+        .plant-lover{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width:361px;
+            height: 648px;
+            margin: 41.5px auto;
+            
+        }
+        
+        .plant-lover-img{
+        width: 358px;
+        height: 396px;
+        margin-bottom: 18px;
+    }
+    .plant-lover-description{
+        width: 361px;
+        height: 234px;
+    }
+    .plant-lover-description>ul>li{
+        font-size: 14px;
+        margin-bottom: 16px;
+        width: 361px;
+        height: 51px;
+    }
+    .lover-head{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    #badge{
+        display: none;
+    }
+        
+    }
 
 
 
@@ -278,6 +385,7 @@ body{
         display: flex;
         align-items: center   ;
         gap: 20px;
+        
         
         
         
@@ -351,6 +459,45 @@ body{
         color:#FFFF;
     }
 
+    @media screen and (max-width:600px) {
+        .deal-grid-img{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 361px;
+            height: 581px;
+            margin-top: 51.5px;
+        }
+        .bloom,.ana{
+            width: 361px;
+            height: 184.5px;
+        }
+        .zabo{
+            width: 361px;
+            height: 172px;
+        }
+        .deal{
+            width:393px;
+            height:117px;
+        }
+        .deal-head{
+            font-size: 24px;
+        }
+        .deal-txt{
+            font-size: 14px;
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /* colorful branch design */
     .colorful-branch{
@@ -384,6 +531,25 @@ body{
         color :#FFFF;
         font-size: 16px;
         font-weight: 600px;
+    }
+    @media  screen and (max-width:600px) {
+        .colorful-branch{
+            width:393px;
+            height: 275px;
+            background-size: cover;
+        }
+        .colorful-branch>p{
+            font-size: 20px;
+        }
+        .bunch-input{
+            width: 218px;
+            height: 50px;
+        }
+        .bunch-btn{
+            width: 103px;
+            height: 50px;
+        }
+        
     }
 
 
@@ -428,4 +594,48 @@ body{
         display: flex;
         justify-content: space-evenly;
         margin: 50px auto;
+    }
+    @media screen and (max-width:600px){
+        .grid-link{
+            grid-template-columns: repeat(1,1fr);
+            width: 128px;
+            height: 516px;
+            row-gap: 5px;
+        }
+        .grid-link>li>a{
+            font-size: 16px;
+        }
+        .footer-img{
+            width: 216px;
+            height: 36px;
+            margin-top: 20px;
+        }
+        
+        
+        
+        .footer-div{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 20px;
+            width: 359px;
+            height: 765px;
+        }
+        .footer-logo-div{
+            width:359px;
+            height: 173px;
+            margin-bottom: 20px;
+        }
+        .footer-logo{
+            width: 180px;
+            height:109px;
+        }
+        .footer-div>p{
+            font-size: 16px;
+        }
+        .footer{
+            width: 393px;
+            height: 865px;
+        }
+        
+        
     }
