@@ -235,7 +235,7 @@ body{
     }
     .our-plant{
         
-        margin-top:65px;
+        margin-top:65px auto 0px auto;
         width:393px;
         height: 1750px;
         margin-bottom: 0px;
@@ -264,6 +264,8 @@ body{
     }
     .f-text{
         font-size: 14px;
+        width: 336px;
+        height: 68px;
     }
     .plant-btn{
         width:171px;
@@ -385,6 +387,9 @@ body{
         display: flex;
         align-items: center   ;
         gap: 20px;
+        width: 1140px;
+        height:423 ;
+        margin: 120px auto;
         
         
         
@@ -399,11 +404,9 @@ body{
         font-size: 22px;
         font-weight: 400px;
     }
-    .deal-grid-img{
-        width: 1140px;
-        height:423 ;
-        margin: 120px auto;
-    }
+    /* .deal-grid-img{
+        
+    } */
     
     .deal-grid-img,img{
         border-radius: 14px;
@@ -411,6 +414,7 @@ body{
     }
     .deal{
         text-align: center;
+        margin:0px auto;
     }
     .bloom-div{
         width: 367px;
@@ -465,12 +469,17 @@ body{
             grid-template-columns: repeat(1,1fr);
             width: 361px;
             height: 581px;
-            margin-top: 51.5px;
+            row-gap: 2px;
+            
+            margin: 51.5px auto;
         }
         .bloom,.ana{
             width: 361px;
             height: 184.5px;
         }
+        /* .bloom-div{
+            margin-bottom: 20px;
+        } */
         .zabo{
             width: 361px;
             height: 172px;
@@ -478,6 +487,8 @@ body{
         .deal{
             width:393px;
             height:117px;
+            margin-top: 143px;
+            
         }
         .deal-head{
             font-size: 24px;
@@ -537,6 +548,7 @@ body{
             width:393px;
             height: 275px;
             background-size: cover;
+            margin:30px auto 0px auto;
         }
         .colorful-branch>p{
             font-size: 20px;
