@@ -267,13 +267,24 @@ body{
         
         
     }
-    .deal-grid{
+    .deal-head{
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    .deal-txt{
+        font-size: 22px;
+        font-weight: 400px;
+    }
+    .deal-grid-img{
         width: 1140px;
         height:423 ;
         margin: 120px auto;
     }
+    
     .deal-grid-img,img{
         border-radius: 14px;
+        
     }
     .deal{
         text-align: center;
@@ -285,10 +296,44 @@ body{
     .bloom{
         width: 367px;
         height: 201px;
+        background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom:25px ;
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
     }
     .ana{
         width: 367px;
         height:197px;
+        background-image: url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+    }
+    .zabo{
+        width: 753px;
+        height: 423px;
+        background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: bold;
+        color:#FFFF;
+        margin-bottom: 10px;
+    }
+    .txt-1{
+        font-size: 16px;
+        font-weight: 600px;
+        color:#FFFF;
     }
 
 
@@ -304,17 +349,68 @@ body{
         text-align: center;
         align-content: center;
     }
+    .bunch-input{
+        width: 644px;
+        height: 50px;
+        border: none;
+    }
+    .bunch-input::placeholder{
+        font-size: 16px;
+        font-weight: 400px;
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 10px;
+       
+    }
+    .bunch-btn{
+        width:186px;
+        height:50px;
+        background-color: rgba(233, 90, 8, 1);
+        border:none;
+        color :#FFFF;
+        font-size: 16px;
+        font-weight: 600px;
+    }
 
 
 
 
 
     /* footer design */
-    .footer{
-        display: flex;
-        justify-content: space-evenly;
-    }
+    
     .grid-link{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        height: 248px;
+        width:398px;
+        row-gap: 32px;
+        column-gap: 20px;
+    }
+    .grid-link>li>a{
+        font-size: 16px;
+        font-weight: 400px;
+        color:rgba(107, 114, 128, 1);
+
+    }
+    .grid-link>li{
+        list-style: none;
+    }
+    .footer-logo{
+        width: 135px;
+        height:82px;
+    }
+    .footer-img{
+        width: 216px;
+        height: 36px;
+    }
+    .footer-img>img{
+        width: 36px;
+        height: 36px;
+        margin-right: 12px;
+    }
+    .footer-div{
+        width: 1120px;
+        height: 248px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px auto;
     }
